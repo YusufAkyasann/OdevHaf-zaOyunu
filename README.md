@@ -12,7 +12,8 @@ Reklam yok, karmaşık ekranlar yok, ancak basit, hoş görünümlü, çalışan
 Özellikler:
 1.18 farklı hayvan resmi
 2.2 farklı zorluk seçeneği
-
+⋅⋅* Unordered sub-list.
+⋅⋅1. Ordered sub-list
 
 
 
