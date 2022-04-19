@@ -10,3 +10,5 @@ ngilizce hayvanların isimleri öğretilmeyi amaçlamaktadır.
   
 Projeyi indirdikten sonra Android Studio içerisine attıktan sonra emulatör üzerinden görüntüleyebilirsiniz.  
 Yusuf AKYASAN 1180505029 
+                         
+![](name-of-giphy.gif)
