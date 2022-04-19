@@ -5,8 +5,8 @@
 1. Actual numbers don't matter, just that it's a number
 ⋅⋅1. Ordered sub-list
 4. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+4 yaş ve üzeri basit bir hafıza oyunudur.
+Reklam yok, karmaşık ekranlar yok, ancak basit, hoş görünümlü, çalışan ve açık kaynaklı bir oyun.
 
 ⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
 ⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
