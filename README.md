@@ -7,6 +7,6 @@ ngilizce hayvanların isimleri öğretilmeyi amaçlamaktadır.
   
 1.18 farklı hayvan resmi  
 2.2 farklı zorluk seçeneği  
-
   
-
+Projeyi indirdikten sonra Android Studio içerisine attıktan sonra emulatör üzerinden görüntüleyebilirsiniz.  
+Yusuf AKYASAN 1180505029 
