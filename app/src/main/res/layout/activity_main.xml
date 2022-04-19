@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="kolay"
+    android:orientation="vertical"
+    android:background="@drawable/bg_1_1"
+    >
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button1"
+        android:layout_width="104dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="283dp"
+
+        android:elevation="10dp"
+        android:onClick="kolay"
+        android:text="@string/kolay"
+        android:textColor="#FAC106"
+        app:cornerRadius="55in" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button2"
+        android:layout_width="104dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="177dp"
+        android:elevation="10dp"
+        android:onClick="zor"
+        android:text="@string/zor"
+        android:textColor="#FAC106"
+        app:cornerRadius="55in" />
+
+</RelativeLayout>

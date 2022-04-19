@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_1_1">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Eşleşme sayısı"
+            android:textStyle="bold"
+            android:textColor="#FEC606"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Hamle Sayıası"
+            android:textStyle="bold"
+            android:textColor="#FEC606"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="44dp"
+        android:text="Süre:0"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        android:textColor="#FEC606"/>
+
+    <TextView
+        android:id="@+id/skorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Skor=0"
+        android:textSize="44dp"
+        app:layout_constraintBottom_toTopOf="@+id/timerTextView"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        tools:layout_editor_absoluteX="0dp"
+        android:textColor="#FEC606"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+
+
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/eslesmeSayisiTextView"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0"
+            android:textStyle="bold"
+            android:textColor="#FEC606"/>
+
+        <TextView
+            android:id="@+id/hamleSayisiTextView"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0"
+            android:textStyle="bold"
+            android:textColor="#FEC606"/>
+
+    </LinearLayout>
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btn1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btn7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn9"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn10"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn11"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn12"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btn13"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn14"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn15"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn16"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn17"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn18"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btn19"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn20"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn21"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn22"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn23"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn24"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btn25"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn26"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn27"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn28"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn29"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn30"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btn31"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn32"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn33"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn34"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn35"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+
+            <ImageButton
+                android:id="@+id/btn36"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kapali" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
